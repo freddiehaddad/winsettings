@@ -4,6 +4,13 @@
     "actions": 
     [
         {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            }
+        },
+        {
             "command": "unbound",
             "keys": "ctrl+c"
         },
@@ -116,11 +123,28 @@
             "keys": "ctrl+numpad0"
         },
         {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            }
+            "command": "unbound",
+            "keys": "ctrl+shift+pgdn"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+end"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+home"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+pgup"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+up"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+enter"
         },
         {
             "command": 
@@ -134,16 +158,16 @@
             "command": "paste"
         },
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
             "command": 
             {
                 "action": "resizePane",
                 "direction": "left"
             },
             "keys": "ctrl+alt+h"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
         },
         {
             "command": 
@@ -158,7 +182,8 @@
             "command": 
             {
                 "action": "scrollDown"
-            }
+            },
+            "keys": "ctrl+shift+j"
         },
         {
             "command": 
@@ -219,6 +244,29 @@
         {
             "command": "resetFontSize",
             "keys": "ctrl+plus"
+        },
+        {
+            "command": "scrollDownPage",
+            "keys": "ctrl+pgdn"
+        },
+        {
+            "command": "scrollToBottom",
+            "keys": "ctrl+end"
+        },
+        {
+            "command": "scrollToTop",
+            "keys": "ctrl+home"
+        },
+        {
+            "command": "scrollUpPage",
+            "keys": "ctrl+pgup"
+        },
+        {
+            "command": 
+            {
+                "action": "scrollUp"
+            },
+            "keys": "ctrl+shift+k"
         }
     ],
     "centerOnLaunch": true,
