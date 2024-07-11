@@ -147,6 +147,18 @@
             "keys": "alt+enter"
         },
         {
+            "command": "unbound",
+            "keys": "alt+shift+plus"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+shift+minus"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+n"
+        },
+        {
             "command": 
             {
                 "action": "resizePane",
@@ -291,7 +303,7 @@
             "elevate": true,
             "font": 
             {
-                "face": "IosevkaTerm Nerd Font Mono",
+                "face": "ComicShannsMono Nerd Font Mono",
                 "features": 
                 {
                     "calt": 0,
