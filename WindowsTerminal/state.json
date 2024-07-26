@@ -1,12 +1,12 @@
 {
 	"generatedProfiles" : 
 	[
-		"{574e775e-4f2a-5b96-ac1e-a2962a402336}",
 		"{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
 		"{1ac2dd9b-1ee7-55ff-8293-2bda2f039a16}",
 		"{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-		"{1bb34f32-41b0-5307-8038-44339d289267}"
+		"{1bb34f32-41b0-5307-8038-44339d289267}",
+		"{574e775e-4f2a-5b96-ac1e-a2962a402336}"
 	],
 	"persistedWindowLayouts" : [],
-	"settingsHash" : "9a67ecd73e7fef34-01dad639d1196683"
+	"settingsHash" : "9ce664935c3857ed-01dadc84daa92ba9"
 }

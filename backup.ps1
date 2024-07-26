@@ -12,3 +12,6 @@ $rootDirectory = "$env:HOMEDRIVE$env:HOMEPATH"
 # Starship
 # choco install starship
 & $copyProgram $rootDirectory\AppData\Roaming\starship\ .\starship\ /mir /copyall
+# lsd
+# choco install lsd
+& $copyProgram $rootDirectory\.config\lsd\ .\lsd\ /mir /copyall

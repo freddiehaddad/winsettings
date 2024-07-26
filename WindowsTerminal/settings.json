@@ -172,13 +172,6 @@
         {
             "command": 
             {
-                "action": "scrollDown"
-            },
-            "keys": "ctrl+shift+j"
-        },
-        {
-            "command": 
-            {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -186,8 +179,11 @@
             "keys": "alt+shift+d"
         },
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
+            "command": 
+            {
+                "action": "scrollDown"
+            },
+            "keys": "ctrl+shift+j"
         },
         {
             "command": 
@@ -196,6 +192,10 @@
                 "direction": "left"
             },
             "keys": "ctrl+alt+left"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
         },
         {
             "command": 
@@ -303,12 +303,14 @@
             "elevate": true,
             "font": 
             {
-                "face": "ComicShannsMono Nerd Font Mono",
+                "cellHeight": "1.15",
+                "face": "ComicShannsMono Nerd Font",
                 "features": 
                 {
                     "calt": 0,
                     "ital": 0
-                }
+                },
+                "weight": "medium"
             },
             "opacity": 85,
             "scrollbarState": "hidden",
@@ -341,6 +343,11 @@
                 "hidden": false,
                 "name": "Developer PowerShell for VS 2022",
                 "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
             }
         ]
     },
