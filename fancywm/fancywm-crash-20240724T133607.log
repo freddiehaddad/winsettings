@@ -1,0 +1,83 @@
+2024-07-21 08:28:32.147 -07:00 [WRN] FancyWM v2.14.0.31 (https://www.microsoft.com/store/apps/9P1741LKHQS9) on Microsoft Windows NT 10.0.22631.0
+2024-07-21 08:28:33.122 -07:00 [WRN] Using the multi-monitor tiling backend
+2024-07-21 08:28:37.161 -07:00 [WRN] Unresizable window 67464=WindowsTerminal will be moved only
+2024-07-21 08:36:45.740 -07:00 [WRN] Unresizable window 199396=msedge will be moved only
+2024-07-21 08:38:43.563 -07:00 [WRN] Unresizable window 920408=msedge will be moved only
+2024-07-22 11:03:59.435 -07:00 [WRN] Unresizable window 1771960=ms-teams will be moved only
+2024-07-22 15:44:11.468 -07:00 [WRN] Unresizable window 2559126=WindowsTerminal will be moved only
+2024-07-23 09:02:09.688 -07:00 [WRN] Unresizable window 7080564=WindowsTerminal will be moved only
+2024-07-23 09:29:25.693 -07:00 [WRN] Unresizable window 723726=ms-teams will be moved only
+2024-07-23 15:00:01.956 -07:00 [WRN] Unresizable window 3475666=Notepad will be moved only
+2024-07-23 15:00:35.179 -07:00 [WRN] Unresizable window 2101134=Notepad will be moved only
+2024-07-23 15:01:25.529 -07:00 [WRN] Unresizable window 7670604=Notepad will be moved only
+2024-07-23 15:04:54.295 -07:00 [WRN] Unresizable window 1052348=Notepad will be moved only
+2024-07-23 15:10:12.477 -07:00 [WRN] Unresizable window 724686=1Password will be moved only
+2024-07-23 15:13:01.410 -07:00 [WRN] Unresizable window 9636816=1Password will be moved only
+2024-07-23 21:30:47.018 -07:00 [WRN] Unresizable window 3869454=msedge will be moved only
+2024-07-24 10:18:56.414 -07:00 [WRN] Unresizable window 4263534=msedge will be moved only
+2024-07-24 11:18:30.340 -07:00 [WRN] Unresizable window 7605678=msedge will be moved only
+2024-07-24 13:36:06.368 -07:00 [FTL] System.Runtime.InteropServices.COMException (0x8002802B): Element not found. (0x8002802B (TYPE_E_ELEMENTNOTFOUND))
+   at WinMan.Windows.Com.IComApplicationViewCollection.GetViewForHwnd(IntPtr hwnd, IComApplicationView& view)
+   at WinMan.Windows.Windows.Win32VirtualDesktopService22631R3085.MoveToDesktop(IntPtr hWnd, Desktop desktop)
+   at WinMan.Windows.FaultTolerantWin32VirtualDesktopService.<>c__DisplayClass16_0.<MoveToDesktop>b__0()
+   at WinMan.Windows.FaultTolerantWin32VirtualDesktopService.ExecuteWithRetry(Action action)
+   at WinMan.Windows.FaultTolerantWin32VirtualDesktopService.MoveToDesktop(IntPtr hWnd, Desktop desktop)
+   at WinMan.Windows.Win32VirtualDesktop.MoveWindow(IWindow window)
+   at FancyWM.MainWindow.OnMoveToDesktopHotkeyPressed(Int32 desktopIndex)
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_0(Object state)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+   at System.Windows.Threading.DispatcherOperation.InvokeImpl()
+   at MS.Internal.CulturePreservingExecutionContext.CallbackWrapper(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at MS.Internal.CulturePreservingExecutionContext.Run(CulturePreservingExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Threading.DispatcherOperation.Invoke()
+   at System.Windows.Threading.Dispatcher.ProcessQueue()
+   at System.Windows.Threading.Dispatcher.WndProcHook(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+   at System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   at MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   at MS.Win32.UnsafeNativeMethods.DispatchMessage(MSG& msg)
+   at System.Windows.Threading.Dispatcher.PushFrameImpl(DispatcherFrame frame)
+   at System.Windows.Application.RunDispatcher(Object ignore)
+   at System.Windows.Application.RunInternal(Window window)
+   at FancyWM.Startup.AppMain(String[] args)
+   at FancyWM.Startup.Main(String[] args)
+2024-07-24 13:36:06.369 -07:00 [FTL] System.Runtime.InteropServices.COMException (0x8002802B): Element not found. (0x8002802B (TYPE_E_ELEMENTNOTFOUND))
+   at WinMan.Windows.Com.IComApplicationViewCollection.GetViewForHwnd(IntPtr hwnd, IComApplicationView& view)
+   at WinMan.Windows.Windows.Win32VirtualDesktopService22631R3085.MoveToDesktop(IntPtr hWnd, Desktop desktop)
+   at WinMan.Windows.FaultTolerantWin32VirtualDesktopService.<>c__DisplayClass16_0.<MoveToDesktop>b__0()
+   at WinMan.Windows.FaultTolerantWin32VirtualDesktopService.ExecuteWithRetry(Action action)
+   at WinMan.Windows.FaultTolerantWin32VirtualDesktopService.MoveToDesktop(IntPtr hWnd, Desktop desktop)
+   at WinMan.Windows.Win32VirtualDesktop.MoveWindow(IWindow window)
+   at FancyWM.MainWindow.OnMoveToDesktopHotkeyPressed(Int32 desktopIndex)
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_0(Object state)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+   at System.Windows.Threading.DispatcherOperation.InvokeImpl()
+   at MS.Internal.CulturePreservingExecutionContext.CallbackWrapper(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at MS.Internal.CulturePreservingExecutionContext.Run(CulturePreservingExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Threading.DispatcherOperation.Invoke()
+   at System.Windows.Threading.Dispatcher.ProcessQueue()
+   at System.Windows.Threading.Dispatcher.WndProcHook(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+   at System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   at MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   at MS.Win32.UnsafeNativeMethods.DispatchMessage(MSG& msg)
+   at System.Windows.Threading.Dispatcher.PushFrameImpl(DispatcherFrame frame)
+   at System.Windows.Application.RunDispatcher(Object ignore)
+   at System.Windows.Application.RunInternal(Window window)
+   at FancyWM.Startup.AppMain(String[] args)
+   at FancyWM.Startup.Main(String[] args)
+--- End of stack trace from previous location ---
+   at FancyWM.App.HandleException(Exception exception)
+   at FancyWM.App.OnUnhandledException(Object sender, UnhandledExceptionEventArgs e)

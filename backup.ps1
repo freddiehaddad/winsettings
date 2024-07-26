@@ -15,3 +15,5 @@ $rootDirectory = "$env:HOMEDRIVE$env:HOMEPATH"
 # lsd
 # choco install lsd
 & $copyProgram $rootDirectory\.config\lsd\ .\lsd\ /mir /copyall
+# FancyWM
+& $copyProgram $rootDirectory\AppData\Local\Packages\2203VeselinKaraganev.FancyWM_9x2ndwrcmyd2c\LocalCache\Roaming\FancyWM\ .\fancywm\ /mir /copyall
